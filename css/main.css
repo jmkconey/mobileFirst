@@ -20,13 +20,20 @@ a:link{
 }
 img{
     width:50%;
-    float:right
+    float:none;
 }
 body {
-    background-color: ghostwhite;
+    background-color: whitesmoke;
 }
- @media screen and (min-width: 480px) {
+ @media screen and (min-width: 769px) {
     body {
         background-color: mintcream;
     }
+     img{
+         border:1px solid red;
+     }
+}
+p{
+    column-count:2;
+    column-gap: 20px;
 }
