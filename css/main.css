@@ -1,0 +1,19 @@
+ul{
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  overflow: hidden;
+  background: #d3d3d3;
+  font-size: 25px;
+}
+li{
+  float:left;
+  padding:6px;
+  margin-left:14%;
+}
+a:hover {
+    color: black;
+}
+a:link{
+  text-decoration:none;
+}
