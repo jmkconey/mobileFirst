@@ -5,6 +5,7 @@ ul{
   overflow: hidden;
   background: #d3d3d3;
   font-size: 25px;
+  width:80%;
 }
 li{
   float:left;
@@ -17,8 +18,8 @@ a:hover {
 a:link{
   text-decoration:none;
 }
-image{
-    width:10%
+img{
+    width:10%;
 }
  @media screen and (min-width: 480px) {
     body {
