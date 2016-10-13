@@ -22,6 +22,9 @@ img{
     width:50%;
     float:right
 }
+body {
+    background-color: ghostwhite;
+}
  @media screen and (min-width: 480px) {
     body {
         background-color: mintcream;
