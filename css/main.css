@@ -5,7 +5,7 @@ ul{
   overflow: hidden;
   background: #d3d3d3;
   font-size: 25px;
-  width:80%;
+  width:100%;
 }
 li{
   float:left;
@@ -19,7 +19,7 @@ a:link{
   text-decoration:none;
 }
 img{
-    width:50%;
+    max-width: 100%;
     float:none;
 }
 body {
@@ -32,8 +32,8 @@ body {
      img{
          border:1px solid red;
      }
-}
-p{
-    column-count:2;
-    column-gap: 20px;
+.newspaper {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
 }
